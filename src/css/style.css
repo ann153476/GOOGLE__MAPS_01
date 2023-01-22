@@ -1,0 +1,54 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    /* height: 100%; */
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* ////////////////////////////////////// */
+  body{
+    box-sizing: border-box;
+    background-color: rgb(172, 249, 249);
+  }
+  li{
+    text-decoration: none;
+  }
+  h1,
+  h2{
+    text-align: center;
+    margin: 10px;
+  }
+  .myInput{
+    width: 150px;
+    height: 20px;
+    background-color: rgb(11, 225, 225);
+    border: 2px solid rgb(2, 89, 89);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .btn{
+    margin-left: 30px;
+  }
+  .input__box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .lat{
+    margin-right: 30px;
+  }
+  .map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+  }
