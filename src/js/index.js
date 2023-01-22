@@ -29,6 +29,7 @@ function f (e){
   let lngValue=Number(lngInput.value);
   console.log(latValue,lngValue);
   initMap(latValue,lngValue);
+  formEl.reset();
 }
 form.addEventListener('submit',f);
 //48.51029069230209 34.61206165767066
